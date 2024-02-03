@@ -1,0 +1,2 @@
+#! /bin/bash 
+ls -lAt --ignore=.* --ignore=. --ignore=.. --format=commas --indicator-style=slash | tr -d ' '
